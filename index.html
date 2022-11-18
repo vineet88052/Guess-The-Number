@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <script src="https://kit.fontawesome.com/3551b33e00.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <i class="fas fa-star one"></i>
+        <i class="fas fa-star two"></i>
+        <i class="fas fa-star three"></i>
+        <i class="fas fa-star four"></i>
+        <i class="fas fa-star five"></i>
+        <i class="fas fa-star six"></i>
+        <i class="fas fa-star seven"></i>
+        <i class="fas fa-star eight"></i>
+        <i class="fas fa-star nine"></i>
+        <i class="fas fa-star ten"></i>
+    </div>
+    <h1>Guess the number!</h1>
+    <button class="reload"><h2 style="display: inline;">Reset</h2><i class="fas fa-sync-alt icon"></i></button>
+    <div class="score-board" style="display: inline;">
+        <h2 style="display:inline">&nbsp;&nbsp;Score: </h2>
+        <h2 class="score" style="display: inline">20</h2>
+        <br><br><br><br>
+        <i class="fas fa-trophy"></i>
+        <h2 style="display: inline">Highscore: </h2>
+        <h2 class="highscore" style="display: inline">0</h2>
+        <h4 class="comparison">Start Guessing...!</h4>
+    </div>
+    <main class="guess">
+        <div><i class="far fa-times-circle wrong"></i><i class="far fa-check-circle correct"></i><i class="far fa-play-circle start"></i></div>
+        <h3>Enter your guess<br> (btw 1 and 20)</h3>
+        <input type="number" style = "display: block" class = "guess-no"> 
+        <button style = "display: block" class = "check">Check your guess</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

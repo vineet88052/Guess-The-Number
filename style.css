@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: rgb(18, 18, 18);
+    color: rgb(75, 151, 75);
+    font-family: 'Press Start 2P', sans-serif;
+    box-sizing: border-box;
+}
+
+.reload {
+    position: relative;
+    font-family: 'Press Start 2P', sans-serif; 
+    border: 0px;
+    margin-left: 20px;
+    margin-top: 100px;
+    padding: 10px;
+    border: 1px solid white;
+    box-shadow: 8px 8px 0 black;
+}
+
+.reload:hover {
+    font-family: 'Press Start 2P', sans-serif; 
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.reload, .icon {
+    font-size: 20px;
+    background-color: rgb(18, 18, 18);
+    color: rgb(75, 151, 75);
+}
+.icon {
+    font-size: 25px;
+}
+
+i { 
+    font-size: 10px;
+    cursor: default;
+}
+
+.guess {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.guess div {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+
+/* if we used visibility instead of display it will still take the space */
+.correct {
+    display: none;
+    color: rgb(78, 255, 78);
+}
+
+.wrong {
+    display: none;
+    color: rgb(255, 78, 78);
+}
+
+.start {
+    display: block;
+    color: rgb(137, 137, 137);
+}
+
+.guess div i{
+    font-size: 150px;
+    margin: auto auto;
+    text-align: center;
+    line-height: 200px;
+    vertical-align: middle;
+}
+
+.guess h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.guess input {
+    background-color: rgb(12, 12, 12);
+    caret-color: white;     /* changes cursor color */
+    /* color: rgb(75, 151, 75); */
+    color: rgb(137, 137, 137);
+    margin: 20px auto;
+    width: 18%;
+    height: 70px;
+    font-family: 'Press Start 2P', sans-serif; 
+    font-size: 45px;
+}
+
+.guess button {
+    position: relative;
+    font-family: 'Press Start 2P', sans-serif; 
+    padding: 10px;
+    border: 0px;
+    margin: 0 auto;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 8px 8px 0 black;
+}
+
+.guess button:hover {
+    font-family: 'Press Start 2P', sans-serif; 
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.score-board {
+    position: absolute;
+    left: 75vw;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.guess-no {
+    text-align: center;
+}
+
+.comparison {
+    position: relative;
+    top: 380px;
+    font-size: 20px;
+}
+
+.fa-trophy {
+    position: relative;
+    font-size: 30px;
+    top: -5px;
+}
+
+@keyframes blink {
+    0% { color: rgb(18, 18, 18)}
+    50% { color: rgb(255, 255, 255);}
+    100% { color: rgb(18, 18, 18);}
+}
+/*Stars*/
+.fa-star {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.one {
+    left: 120px;
+    top: 70px;
+}
+
+.two {
+    left: 420px;
+    top: 550px;
+}
+
+.three {
+    left: 160px;
+    top: 700px;
+}
+
+.four {
+    left: 80px;
+    top: 500px;
+}
+
+.four {
+    left: 380px;
+    top: 300px;
+}
+
+.five {
+    left: 80px;
+    top: 380px;
+}
+
+.six {
+    left: 600px;
+    top: 180px;
+}
+
+.seven {
+    left: 1080px;
+    top: 200px;
+}
+
+.eight {
+    left: 1400px;
+    top: 80px;
+}
+
+.nine {
+    left: 1300px;
+    top: 580px;
+}
+
+.ten {
+    left: 1470px;
+    top: 380px;
+}
+
